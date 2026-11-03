@@ -1,0 +1,17 @@
+name: Room went premium
+description: Report a room that now needs a subscription
+title: "[Premium] "
+labels: ["premium"]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Room link
+      placeholder: https://tryhackme.com/room/...
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: What did you see?
+      placeholder: Locked after task 2, paywall on start, etc.

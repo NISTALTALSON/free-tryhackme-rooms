@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/banner.svg" alt="Free TryHackMe Roadmap - 471 free rooms, 11 phases" width="100%">
+
 # 🔐 Free TryHackMe Hacking Roadmap
 ### 471 Free Rooms. 11 Phases. Zero Paywalls. One Path From Zero to Hacker.
 
@@ -786,6 +788,23 @@ Fork this repo and tick the checkboxes as you go. Share your progress with `#Fre
 - [ ] [TryHackMe | Hacker of the Hill #1](https://tryhackme.com/room/hackerofthehill) — King of the Hill event.
 - [ ] [TryHackMe | Learn and win prizes](https://tryhackme.com/room/tickets1) — Event rooms.
 - [ ] [TryHackMe | Learn and win prizes #2](https://tryhackme.com/room/tickets2) — Event rooms.
+
+---
+
+## 🧰 When a Room Goes Premium — Free Alternatives
+
+TryHackMe changes its free tier. These stay free and pair well with this roadmap:
+
+| Platform | Best for |
+|---|---|
+| [OverTheWire](https://overthewire.org/wargames/) | Linux and command-line wargames (Bandit first) |
+| [PortSwigger Web Security Academy](https://portswigger.net/web-security) | The best free web hacking labs |
+| [picoCTF](https://picoctf.org) | Beginner CTFs, all categories |
+| [pwn.college](https://pwn.college) | Binary exploitation and systems security |
+| [CryptoHack](https://cryptohack.org) | Cryptography challenges |
+| [Root Me](https://www.root-me.org) | Huge free challenge library |
+| [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/) | Run your own vulnerable web app |
+| [VulnHub](https://www.vulnhub.com) | Download vulnerable VMs for a home lab |
 
 ---
 

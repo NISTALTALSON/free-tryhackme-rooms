@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050a07"/><stop offset="1" stop-color="#0b1f14"/></linearGradient></defs>
+<rect width="1280" height="320" fill="url(#g)"/>
+<g font-family="Consolas, 'Courier New', monospace" fill="#2cff7a">
+<text x="60" y="70" font-size="22" fill="#6b8f78">root@thm:~$ ./roadmap --free --no-paywall</text>
+<text x="60" y="165" font-size="68" font-weight="bold">FREE TRYHACKME ROADMAP</text>
+<text x="60" y="222" font-size="30" fill="#c8ffe0">471 rooms  |  11 phases  |  zero to hacker</text>
+<text x="60" y="275" font-size="22" fill="#6b8f78">Web | Privesc | AD | SOC | DFIR | Cloud | CTF   -   star it, fork it, grind it_</text>
+</g>
+<rect x="1090" y="40" width="130" height="36" rx="6" fill="none" stroke="#2cff7a"/>
+<text x="1155" y="64" font-family="Consolas, monospace" font-size="18" fill="#2cff7a" text-anchor="middle">100% FREE</text>
+</svg>

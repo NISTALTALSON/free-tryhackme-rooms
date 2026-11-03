@@ -1,0 +1,28 @@
+name: Suggest a free room
+description: Propose a free TryHackMe room that is missing from the roadmap
+title: "[Room] "
+labels: ["new-room"]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Room link
+      placeholder: https://tryhackme.com/room/...
+    validations:
+      required: true
+  - type: dropdown
+    id: phase
+    attributes:
+      label: Which phase does it belong in?
+      options: ["Phase 0-2 Foundations", "Phase 3-4 Tools & Recon", "Phase 5 Web", "Phase 6 Exploitation & AD", "Phase 7 Blue Team", "Phase 8 Advanced", "Phase 9 CTF", "Phase 10 Cloud & DevSecOps", "Other"]
+    validations:
+      required: true
+  - type: checkboxes
+    id: free
+    attributes:
+      label: Checks
+      options:
+        - label: I opened it on a free account and it is not locked
+          required: true
+        - label: I searched the README and it is not already listed
+          required: true

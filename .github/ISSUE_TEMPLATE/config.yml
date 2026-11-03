@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Ask a question or share your progress
+    url: https://github.com/NISTALTALSON/free-tryhackme-rooms/discussions
+    about: Use Discussions for questions, study groups and wins
