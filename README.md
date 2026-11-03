@@ -1,14 +1,18 @@
 <div align="center">
 
 # 🔐 Free TryHackMe Hacking Roadmap
-### A Structured Path From Zero to Hacker — 400+ Free Rooms, Zero Paywalls
+### 471 Free Rooms. 11 Phases. Zero Paywalls. One Path From Zero to Hacker.
 
-[![Maintained by](https://img.shields.io/badge/Maintained%20by-NISTALTALSON-blue?style=for-the-badge&logo=github)](https://github.com/NISTALTALSON)
-[![TryHackMe](https://img.shields.io/badge/Platform-TryHackMe-red?style=for-the-badge)](https://tryhackme.com)
-[![Rooms](https://img.shields.io/badge/Free%20Rooms-400%2B-green?style=for-the-badge)](https://tryhackme.com)
+[![Stars](https://img.shields.io/github/stars/NISTALTALSON/free-tryhackme-rooms?style=for-the-badge&logo=github&color=gold)](https://github.com/NISTALTALSON/free-tryhackme-rooms/stargazers)
+[![Forks](https://img.shields.io/github/forks/NISTALTALSON/free-tryhackme-rooms?style=for-the-badge&logo=github)](https://github.com/NISTALTALSON/free-tryhackme-rooms/fork)
+[![Rooms](https://img.shields.io/badge/Free%20Rooms-471-brightgreen?style=for-the-badge)](#-table-of-contents)
+[![Last Commit](https://img.shields.io/github/last-commit/NISTALTALSON/free-tryhackme-rooms?style=for-the-badge)](https://github.com/NISTALTALSON/free-tryhackme-rooms/commits/main)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-ff69b4?style=for-the-badge)](#-contributing)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > **"Everyone deserves to learn hacking. This roadmap is your cheat code."**
+
+**⭐ Star this repo so you can find it later — then start at [Phase 0](#-phase-0--start-here).**
 
 </div>
 
@@ -16,50 +20,70 @@
 
 ## 🧠 Why This Exists
 
-Most free TryHackMe lists are just category dumps.  
-This one is a **structured learning roadmap** — each phase builds on the last, designed so a total beginner becomes a real threat by the end.
+Most free TryHackMe lists are flat category dumps. This one is a **structured roadmap**: every phase builds on the last, has a time estimate and a goal, and ends in a career path with next certs.
+
+- 🗺️ **Phased path** — Phase 0 to Phase 10, beginner to specialist
+- ⏱️ **Time estimates** — know what you're signing up for
+- ✅ **Checklists** — fork it and tick rooms off
+- 🧹 **Deduplicated** — each room appears once
+- 🚫 **Premium watch** — rooms that left the free tier are listed [below](#-no-longer-free)
+- 🎯 **Career map** — red team, blue team, bug bounty, RE
 
 No subscription. No courses to buy. Just grind.
 
 ---
 
-## 📊 Roadmap Overview
+## 🧭 Pick Your Path
 
-```
-PHASE 0 ──▶ PHASE 1 ──▶ PHASE 2 ──▶ PHASE 3 ──▶ PHASE 4
-  Start        Core         Tools      Recon &      Web
-  Here       Foundations   & Scanning   OSINT      Hacking
+| I want to be... | Go through | Time |
+|---|---|---|
+| Total beginner | Phase 0 → 1 → 2 | ~3 weeks |
+| Pentester / Red Team | Phase 3 → 4 → 5 → 6 | ~2 months |
+| Bug bounty hunter | Phase 3 → 5 (all of it) → 9 Easy/Medium | ~6 weeks |
+| SOC analyst / Blue Team | Phase 1 → 7 → 9 forensics-style rooms | ~6 weeks |
+| Reverse engineer / malware analyst | Phase 2 → 8 (RE + BoF) → 7 malware | ~2 months |
+| Cloud / DevSecOps | Phase 1 → 3 → 10 | ~3 weeks |
 
-PHASE 5 ──▶ PHASE 6 ──▶ PHASE 7 ──▶ PHASE 8 ──▶ PHASE 9
-  Privesc   Post-Exploit   Defense     Advanced     CTF
-& Exploit    & AD Attacks  Track (SOC)  Tracks    Practice
-```
+## 📅 12-Week Plan (1–2 hours a day)
+
+| Weeks | Focus |
+|---|---|
+| 1–2 | Phases 0–1: platform, Linux, Windows, networking |
+| 3 | Phase 2: scripting and crypto |
+| 4 | Phase 3: Nmap, Burp, Metasploit, Hydra |
+| 5 | Phase 4: recon and OSINT |
+| 6–7 | Phase 5: web hacking and OWASP |
+| 8–9 | Phase 6: privesc and Active Directory |
+| 10 | Phase 7 or 10: pick blue team or cloud |
+| 11–12 | Phase 9: CTFs — Easy, then Medium |
 
 ---
 
 ## 📋 Table of Contents
 
-| Phase | Topic | Rooms |
-|-------|-------|-------|
-| [Phase 0](#-phase-0--start-here) | Start Here — Orientation | 8 |
-| [Phase 1](#-phase-1--core-foundations) | Core Foundations — Linux, Windows, Networking | 16 |
-| [Phase 2](#-phase-2--scripting--cryptography) | Scripting & Cryptography | 14 |
-| [Phase 3](#-phase-3--hacking-methodology--tools) | Hacking Methodology & Tools | 20 |
-| [Phase 4](#-phase-4--reconnaissance--osint) | Reconnaissance & OSINT | 12 |
-| [Phase 5](#-phase-5--web-application-hacking) | Web Application Hacking | 28 |
-| [Phase 6](#-phase-6--exploitation--privilege-escalation) | Exploitation & Privilege Escalation | 22 |
-| [Phase 7](#-phase-7--defense-track--soc--dfir) | Defense Track — SOC, DFIR, Forensics | 20 |
-| [Phase 8](#-phase-8--advanced-specializations) | Advanced Specializations | 36 |
-| [Phase 9](#-phase-9--ctf-practice) | CTF Practice — Easy → Hard | 100+ |
-| [Bonus](#-bonus--special-events) | Special Events & Advent of Cyber | 10 |
+| Phase | Rooms |
+|---|---|
+| [Phase 0 — Start Here](#-phase-0--start-here) | 8 |
+| [Phase 1 — Core Foundations](#-phase-1--core-foundations) | 22 |
+| [Phase 2 — Scripting & Cryptography](#-phase-2--scripting--cryptography) | 16 |
+| [Phase 3 — Hacking Methodology & Tools](#-phase-3--hacking-methodology--tools) | 28 |
+| [Phase 4 — Reconnaissance & OSINT](#-phase-4--reconnaissance--osint) | 12 |
+| [Phase 5 — Web Application Hacking](#-phase-5--web-application-hacking) | 41 |
+| [Phase 6 — Exploitation & Privilege Escalation](#-phase-6--exploitation--privilege-escalation) | 26 |
+| [Phase 7 — Defense Track (SOC, DFIR, Forensics)](#-phase-7--defense-track-soc-dfir-forensics) | 52 |
+| [Phase 8 — Advanced Specializations](#-phase-8--advanced-specializations) | 47 |
+| [Phase 9 — CTF Practice](#-phase-9--ctf-practice) | 202 |
+| [Phase 10 — Cloud, Containers & DevSecOps](#-phase-10--cloud-containers--devsecops) | 7 |
+| [Bonus — Special Events](#-bonus--special-events) | 10 |
+| **Total** | **471** |
 
-> ⚠️ **Note:** TryHackMe occasionally moves rooms behind a paywall. If a room shows as Premium, it's been flagged below or skip to the next one.
+> ⚠️ **Note:** TryHackMe moves rooms behind the paywall from time to time. If a room asks for a subscription, skip it and [tell us](https://github.com/NISTALTALSON/free-tryhackme-rooms/issues).
 
 ---
 
 ## ☑️ Progress Tracker
 
-Use checkboxes to track what you've done. Fork this repo and check them off as you go!
+Fork this repo and tick the checkboxes as you go. Share your progress with `#FreeTHMRoadmap`.
 
 ---
 
@@ -111,6 +135,18 @@ Use checkboxes to track what you've done. Fork this repo and check them off as y
 - [ ] [TryHackMe | DNS in Detail](https://tryhackme.com/room/dnsindetail) — How domain names resolve. Essential for recon.
 - [ ] [TryHackMe | Dumping Router Firmware](https://tryhackme.com/room/rfirmware) — Hardware-level networking. Bonus.
 
+
+### 🆕 More Foundations
+
+- [ ] [TryHackMe | Linux File System Analysis](https://tryhackme.com/room/linuxfilesystemanalysis) — Understand where evidence and misconfigs hide on Linux.
+- [ ] [TryHackMe | Linux Process Analysis](https://tryhackme.com/room/linuxprocessanalysis) — Inspect running processes like an analyst.
+- [ ] [TryHackMe | Intro to Logs](https://tryhackme.com/room/introtologs) — Why logs matter and how to read them.
+- [ ] [TryHackMe | Hosted Hypervisors](https://tryhackme.com/room/hostedhypervisors) — Virtualisation basics for your home lab.
+- [ ] [TryHackMe | Hypervisor Internals](https://tryhackme.com/room/hypervisorinternals) — How hypervisors work under the hood.
+- [ ] [TryHackMe | How Websites Work](https://tryhackme.com/room/howwebsiteswork) — Front-end vs back-end, the base for web hacking.
+- [ ] [TryHackMe | Careers in Cyber](https://tryhackme.com/room/careersincyber) — Pick a lane before you grind.
+- [ ] [TryHackMe | Security Principles](https://tryhackme.com/room/securityprinciples) — Core security concepts every beginner needs.
+
 ---
 
 ## 🟡 Phase 2 — Scripting & Cryptography
@@ -137,6 +173,13 @@ Use checkboxes to track what you've done. Fork this repo and check them off as y
 - [ ] [TryHackMe | Crack The Hash Level 2](https://tryhackme.com/room/crackthehashlevel2) — Harder hashes, custom wordlists.
 - [ ] [TryHackMe | Brute It](https://tryhackme.com/room/bruteit) — Dictionary attacks in practice.
 - [ ] [TryHackMe | Agent Sudo](https://tryhackme.com/room/agentsudoctf) — Hashes + steganography combined mini-challenge.
+
+
+### 🔐 More Crypto
+
+- [ ] [TryHackMe | Breaking RSA](https://tryhackme.com/room/breakrsa) — Attack weak RSA implementations.
+- [ ] [TryHackMe | Introduction to Cryptography](https://tryhackme.com/room/cryptographyintro) — Clean intro before the heavy rooms.
+- [ ] [TryHackMe | Introduction to CryptOps](https://tryhackme.com/room/introductiontocryptops) — Crypto operations in practice.
 
 ---
 
@@ -171,6 +214,18 @@ Use checkboxes to track what you've done. Fork this repo and check them off as y
 - [ ] [TryHackMe | Sublist3r](https://tryhackme.com/room/rpsublist3r) — Subdomain enumeration.
 - [ ] [TryHackMe | tmux](https://tryhackme.com/room/rptmux) — Terminal multiplexer every hacker needs.
 - [ ] [TryHackMe | Toolbox: Vim](https://tryhackme.com/room/toolboxvim) — Edit files on remote servers like a pro.
+
+
+### 🆕 More Tools & Methodology
+
+- [ ] [TryHackMe | Burp Suite: The Basics](https://tryhackme.com/room/burpsuitebasics) — Set up and drive Burp Suite. Do this before Repeater.
+- [ ] [TryHackMe | Content Discovery](https://tryhackme.com/room/contentdiscovery) — Find hidden files and directories on web apps.
+- [ ] [TryHackMe | Snyk Open Source](https://tryhackme.com/room/snykopensource) — Find vulnerable dependencies.
+- [ ] [TryHackMe | Snyk Code](https://tryhackme.com/room/snykcode) — Static analysis for your own code.
+- [ ] [TryHackMe | Phishing: HiddenEye](https://tryhackme.com/room/phishinghiddeneye) — See how phishing kits work (for defence).
+- [ ] [TryHackMe | REmux The Tmux](https://tryhackme.com/room/tmuxremux) — More tmux practice.
+- [ ] [TryHackMe | Offensive Security Intro](https://tryhackme.com/room/offensivesecurityintro) — Hack your first machine.
+- [ ] [TryHackMe | Defensive Security Intro](https://tryhackme.com/room/defensivesecurityintro) — Meet the blue team side.
 
 ---
 
@@ -243,6 +298,24 @@ Use checkboxes to track what you've done. Fork this repo and check them off as y
 - [ ] [TryHackMe | Git Happens](https://tryhackme.com/room/githappens) — Exposed .git directory exploitation.
 - [ ] [TryHackMe | CVE-2021-41773/42013](https://tryhackme.com/room/cve202141773) — Apache path traversal RCE.
 
+
+### 🆕 Modern Web Attacks
+
+- [ ] [TryHackMe | OWASP Top 10 - 2021](https://tryhackme.com/room/owasptop102021) — Updated Top 10 with newer categories.
+- [ ] [TryHackMe | Web Application Security](https://tryhackme.com/room/introwebapplicationsecurity) — Structured web security intro.
+- [ ] [TryHackMe | XSS](https://tryhackme.com/room/axss) — Reflected, stored and DOM XSS.
+- [ ] [TryHackMe | CSRF](https://tryhackme.com/room/csrfV2) — Cross-site request forgery end to end.
+- [ ] [TryHackMe | NoSQL Injection](https://tryhackme.com/room/nosqlinjectiontutorial) — Break MongoDB-style backends.
+- [ ] [TryHackMe | Advanced SQL Injection](https://tryhackme.com/room/advancedsqlinjection) — Beyond UNION: blind and out-of-band.
+- [ ] [TryHackMe | File Inclusion, Path Traversal](https://tryhackme.com/room/filepathtraversal) — LFI, RFI and traversal in one room.
+- [ ] [TryHackMe | SSRF](https://tryhackme.com/room/ssrfhr) — Make servers fetch what they should not.
+- [ ] [TryHackMe | OWASP Broken Access Control](https://tryhackme.com/room/owaspbrokenaccesscontrol) — IDOR and privilege flaws.
+- [ ] [TryHackMe | HTTP Request Smuggling](https://tryhackme.com/room/httprequestsmuggling) — Desync front-end and back-end.
+- [ ] [TryHackMe | HTTP/2 Request Smuggling](https://tryhackme.com/room/http2requestsmuggling) — Smuggling over HTTP/2.
+- [ ] [TryHackMe | Race Conditions](https://tryhackme.com/room/raceconditions) — Exploit timing bugs.
+- [ ] [TryHackMe | Microservices Architectures](https://tryhackme.com/room/microservicearchitectures) — Understand modern app attack surface.
+- [ ] [TryHackMe | APIWizards Breach](https://tryhackme.com/room/apiwizardsbreach) — API-focused breach scenario.
+
 ---
 
 ## ⬆️ Phase 6 — Exploitation & Privilege Escalation
@@ -276,11 +349,22 @@ Use checkboxes to track what you've done. Fork this repo and check them off as y
 ### 🏰 Active Directory Attacks
 
 - [ ] [TryHackMe | Attacktive Directory](https://tryhackme.com/room/attacktivedirectory) — Kerberoasting, AS-REP roasting, pass-the-hash. The real thing.
-- [ ] [TryHackMe | Post-Exploitation Basics](https://tryhackme.com/room/postexploit) — Mimikatz, BloodHound, AD enumeration.
 - [ ] [TryHackMe | VulnNet: Roasted](https://tryhackme.com/room/vulnnetroasted) — AD challenge with real attack chains.
 - [ ] [TryHackMe | VulnNet: Active](https://tryhackme.com/room/vulnnetactive) — Active Directory + web combined.
 - [ ] [TryHackMe | Blue](https://tryhackme.com/room/blue) — EternalBlue (MS17-010). The NSA exploit made famous by WannaCry.
 - [ ] [TryHackMe | Anthem](https://tryhackme.com/room/anthem) — Windows enumeration and recon.
+
+
+### 🆕 More Active Directory & Windows
+
+- [ ] [TryHackMe | Active Directory Basics](https://tryhackme.com/room/winadbasics) — Learn AD before you attack it.
+- [ ] [TryHackMe | Breaching Active Directory](https://tryhackme.com/room/breachingad) — Get your first AD foothold.
+- [ ] [TryHackMe | USTOUN](https://tryhackme.com/room/ustoun) — AD challenge machine.
+- [ ] [TryHackMe | Enterprise](https://tryhackme.com/room/enterprise) — Full AD enterprise-style box.
+- [ ] [TryHackMe | RazorBlack](https://tryhackme.com/room/raz0rblack) — AD enumeration and roasting.
+- [ ] [TryHackMe | Blueprint](https://tryhackme.com/room/blueprint) — Windows web app to SYSTEM.
+- [ ] [TryHackMe | Iron Corp](https://tryhackme.com/room/ironcorp) — Hard Windows/AD chain.
+- [ ] [TryHackMe | Relevant](https://tryhackme.com/room/relevant) — OSCP-style Windows box.
 
 ---
 
@@ -323,6 +407,40 @@ Use checkboxes to track what you've done. Fork this repo and check them off as y
 
 - [ ] [TryHackMe | h4cked](https://tryhackme.com/room/h4cked) — Investigate a compromise through packet captures.
 - [ ] [TryHackMe | Overpass 2 - Hacked](https://tryhackme.com/room/overpass2hacked) — Forensics on a hacked server. Trace every step.
+
+
+### 🆕 More Blue Team, SOC & Threat Hunting
+
+- [ ] [TryHackMe | Junior Security Analyst Intro](https://tryhackme.com/room/jrsecanalystintrouxo) — What a junior SOC analyst does day to day.
+- [ ] [TryHackMe | Threat Intelligence for SOC](https://tryhackme.com/room/threatintelligenceforsoc) — Use CTI in alert triage.
+- [ ] [TryHackMe | Splunk: Exploring SPL](https://tryhackme.com/room/splunkexploringspl) — Write Splunk searches.
+- [ ] [TryHackMe | ParrotPost: Phishing Analysis](https://tryhackme.com/room/parrotpost) — Analyse phishing emails.
+- [ ] [TryHackMe | Intro to Detection Engineering](https://tryhackme.com/room/introtodetectionengineering) — Turn threats into detections.
+- [ ] [TryHackMe | Threat Hunting: Introduction](https://tryhackme.com/room/introductiontothreathunting) — Hypothesis-driven hunting.
+- [ ] [TryHackMe | Threat Hunting: Foothold](https://tryhackme.com/room/threathuntingfoothold) — Hunt for initial access.
+- [ ] [TryHackMe | Intro to Threat Emulation](https://tryhackme.com/room/threatemulationintro) — Emulate adversaries safely.
+- [ ] [TryHackMe | Unified Kill Chain](https://tryhackme.com/room/unifiedkillchain) — Map attacks end to end.
+- [ ] [TryHackMe | Cyber Kill Chain](https://tryhackme.com/room/cyberkillchainzmt) — Lockheed model explained.
+- [ ] [TryHackMe | IR Playbooks](https://tryhackme.com/room/irplaybooks) — Incident response playbooks.
+- [ ] [TryHackMe | IR Philosophy and Ethics](https://tryhackme.com/room/irphilosophyethics) — The mindset behind IR.
+- [ ] [TryHackMe | Legal Considerations in DFIR](https://tryhackme.com/room/dfirprocesslegalconsiderations) — Evidence and legality.
+- [ ] [TryHackMe | Identification & Scoping](https://tryhackme.com/room/identificationandscoping) — Scope an incident.
+- [ ] [TryHackMe | Forensic Imaging](https://tryhackme.com/room/forensicimaging) — Acquire disk images properly.
+- [ ] [TryHackMe | Intro to Cold System Forensics](https://tryhackme.com/room/introtocoldsystemforensics) — Forensics on powered-off systems.
+- [ ] [TryHackMe | Windows Applications Forensics](https://tryhackme.com/room/windowsapplications) — Artefacts from Windows apps.
+- [ ] [TryHackMe | Linux Incident Surface](https://tryhackme.com/room/linuxincidentsurface) — Where to look on a compromised Linux box.
+- [ ] [TryHackMe | Windows Incident Surface](https://tryhackme.com/room/winincidentsurface) — Where to look on a compromised Windows box.
+- [ ] [TryHackMe | Registry Persistence Detection](https://tryhackme.com/room/registrypersistencedetection) — Catch registry persistence.
+- [ ] [TryHackMe | Servidae: Log Analysis in ELK](https://tryhackme.com/room/servidae) — Hunt through logs in ELK.
+- [ ] [TryHackMe | Digital Forensics Case B4DM755](https://tryhackme.com/room/caseb4dm755) — Full forensic case.
+- [ ] [TryHackMe | Eviction](https://tryhackme.com/room/eviction) — Threat intel investigation.
+- [ ] [TryHackMe | Threat Intel & Containment](https://tryhackme.com/room/intelcreationandcontainment) — Create intel and contain threats.
+- [ ] [TryHackMe | Hunt Me I: Payment Collectors](https://tryhackme.com/room/paymentcollectors) — Threat hunting scenario.
+- [ ] [TryHackMe | Hunt Me II: Typo Squatters](https://tryhackme.com/room/typosquatters) — Threat hunting scenario.
+- [ ] [TryHackMe | Boogeyman 1](https://tryhackme.com/room/boogeyman1) — Email attack investigation.
+- [ ] [TryHackMe | Unattended](https://tryhackme.com/room/unattended) — Investigate a Windows incident.
+- [ ] [TryHackMe | ISO27001](https://tryhackme.com/room/iso27001) — Compliance fundamentals.
+- [ ] [TryHackMe | Security Engineer Intro](https://tryhackme.com/room/securityengineerintro) — What security engineers build.
 
 ---
 
@@ -383,6 +501,27 @@ Use checkboxes to track what you've done. Fork this repo and check them off as y
 - [ ] [TryHackMe | OverlayFS - CVE-2021-3493](https://tryhackme.com/room/overlayfs) — Linux kernel privilege escalation via CVE.
 - [ ] [TryHackMe | Wordpress: CVE-2021-29447](https://tryhackme.com/room/wordpresscve202129447) — XML injection in WordPress.
 
+
+### 🆕 CVEs, Exploits & Misc Labs
+
+- [ ] [TryHackMe | PaperCut: CVE-2023-27350](https://tryhackme.com/room/papercut) — Print server RCE.
+- [ ] [TryHackMe | Moniker Link (CVE-2024-21413)](https://tryhackme.com/room/monikerlink) — Outlook moniker flaw.
+- [ ] [TryHackMe | Confluence CVE-2023-22515](https://tryhackme.com/room/confluence202322515) — Broken access control to admin.
+- [ ] [TryHackMe | GitLab CVE-2023-7028](https://tryhackme.com/room/gitlabcve20237028) — Account takeover via password reset.
+- [ ] [TryHackMe | CVE-2023-38408](https://tryhackme.com/room/cve202338408) — OpenSSH agent forwarding RCE.
+- [ ] [TryHackMe | Looney Tunables](https://tryhackme.com/room/looneytunes) — glibc privesc.
+- [ ] [TryHackMe | Meltdown Explained](https://tryhackme.com/room/meltdownexplained) — CPU side-channel basics.
+- [ ] [TryHackMe | Bypass Disable Functions](https://tryhackme.com/room/bypassdisablefunctions) — PHP hardening bypass.
+- [ ] [TryHackMe | DNS Manipulation](https://tryhackme.com/room/dnsmanipulation) — Abuse DNS.
+- [ ] [TryHackMe | Git and Crumpets](https://tryhackme.com/room/gitandcrumpets) — Git-based challenge.
+- [ ] [TryHackMe | Hip Flask](https://tryhackme.com/room/hipflask) — Flask exploitation.
+- [ ] [TryHackMe | Introduction to Django](https://tryhackme.com/room/django) — Learn the framework you will hack.
+- [ ] [TryHackMe | Introduction to Flask](https://tryhackme.com/room/flask) — Learn the framework you will hack.
+- [ ] [TryHackMe | Jupyter 101](https://tryhackme.com/room/jupyter101) — Notebook security basics.
+- [ ] [TryHackMe | The find command](https://tryhackme.com/room/thefindcommand) — Master find for privesc and forensics.
+- [ ] [TryHackMe | Windows Reversing Intro](https://tryhackme.com/room/windowsreversingintro) — Start Windows RE.
+- [ ] [TryHackMe | Intro To Pwntools](https://tryhackme.com/room/introtopwntools) — Exploit dev scripting library.
+
 ---
 
 ## 🏁 Phase 9 — CTF Practice
@@ -394,7 +533,6 @@ Use checkboxes to track what you've done. Fork this repo and check them off as y
 
 - [ ] [TryHackMe | Pickle Rick](https://tryhackme.com/room/picklerick) — Web + Linux. Fun starter.
 - [ ] [TryHackMe | RootMe](https://tryhackme.com/room/rrootme) — Upload bypass → privesc. Classic.
-- [ ] [TryHackMe | Vulnversity](https://tryhackme.com/room/vulnversity) — Full recon-to-root chain.
 - [ ] [TryHackMe | Simple CTF](https://tryhackme.com/room/easyctf) — CMS exploit + sudo privesc.
 - [ ] [TryHackMe | Bounty Hacker](https://tryhackme.com/room/cowboyhacker) — FTP enumeration + brute force.
 - [ ] [TryHackMe | LazyAdmin](https://tryhackme.com/room/lazyadmin) — SweetRice CMS exploitation.
@@ -433,12 +571,9 @@ Use checkboxes to track what you've done. Fork this repo and check them off as y
 - [ ] [TryHackMe | Mr Robot CTF](https://tryhackme.com/room/mrrobot) — Based on the show. Wordlists, PHP shell, SUID.
 - [ ] [TryHackMe | Daily Bugle](https://tryhackme.com/room/dailybugle) — Joomla SQLi + PHP upload + Yum privesc.
 - [ ] [TryHackMe | Wonderland](https://tryhackme.com/room/wonderland) — Alice themed. Path hijacking + capabilities.
-- [ ] [TryHackMe | Overpass 2 - Hacked](https://tryhackme.com/room/overpass2hacked) — Forensics of a compromised server.
 - [ ] [TryHackMe | Overpass 3 - Hosting](https://tryhackme.com/room/overpass3hosting) — NFS + SSH key + web shell.
-- [ ] [TryHackMe | The Marketplace](https://tryhackme.com/room/marketplace) — XSS → SSRF → SQL injection.
 - [ ] [TryHackMe | Anonymous](https://tryhackme.com/room/anonymous) — FTP anonymous + cron job + SUID.
 - [ ] [TryHackMe | Blog](https://tryhackme.com/room/blog) — WordPress + SUID wp-cli exploit.
-- [ ] [TryHackMe | dogcat](https://tryhackme.com/room/dogcat) — PHP LFI + log poisoning + Docker escape.
 - [ ] [TryHackMe | GoldenEye](https://tryhackme.com/room/goldeneye) — POP3 + Moodle RCE.
 - [ ] [TryHackMe | CMesS](https://tryhackme.com/room/cmess) — Gila CMS + wildcard injection.
 - [ ] [TryHackMe | ConvertMyVideo](https://tryhackme.com/room/convertmyvideo) — Command injection + cron.
@@ -449,14 +584,11 @@ Use checkboxes to track what you've done. Fork this repo and check them off as y
 - [ ] [TryHackMe | Watcher](https://tryhackme.com/room/watcher) — LFI + FTP + Python cron.
 - [ ] [TryHackMe | Wekor](https://tryhackme.com/room/wekorra) — WordPress + SQLi + Rabbit.
 - [ ] [TryHackMe | CTF Collection Vol.2](https://tryhackme.com/room/ctfcollectionvol2) — Advanced stego, crypto, exploitation.
-- [ ] [TryHackMe | CMSpit](https://tryhackme.com/room/cmspit) — Cockpit CMS CVE.
 - [ ] [TryHackMe | VulnNet: Node](https://tryhackme.com/room/vulnnetnode) — Node.js deserialization.
 - [ ] [TryHackMe | VulnNet: Internal](https://tryhackme.com/room/vulnnetinternal) — SMB + Redis + Rsync.
 - [ ] [TryHackMe | Inferno](https://tryhackme.com/room/inferno) — Dante-themed. Multi-vector.
 - [ ] [TryHackMe | Revenge](https://tryhackme.com/room/revenge) — SQL injection + service exploit.
-- [ ] [TryHackMe | SQHell](https://tryhackme.com/room/sqhell) — All types of SQLi in one room.
 - [ ] [TryHackMe | Mnemonic](https://tryhackme.com/room/mnemonic) — FTP + brute force + Python jail.
-- [ ] [TryHackMe | Startup](https://tryhackme.com/room/startup) — Upload + wireshark + privesc.
 - [ ] [TryHackMe | Biohazard](https://tryhackme.com/room/biohazard) — Resident Evil themed CTF.
 - [ ] [TryHackMe | Undiscovered](https://tryhackme.com/room/undiscoveredup) — VHost enum + RFI.
 - [ ] [TryHackMe | broker](https://tryhackme.com/room/broker) — ActiveMQ CVE exploitation.
@@ -464,7 +596,6 @@ Use checkboxes to track what you've done. Fork this repo and check them off as y
 ### 🔴 Hard CTFs
 
 - [ ] [TryHackMe | Internal](https://tryhackme.com/room/internal) — OSCP-style. WordPress + Jenkins + port forward.
-- [ ] [TryHackMe | Daily Bugle](https://tryhackme.com/room/dailybugle) — Joomla attack chain.
 - [ ] [TryHackMe | Retro](https://tryhackme.com/room/retro) — Windows + CVE exploit.
 - [ ] [TryHackMe | Year of the Fox](https://tryhackme.com/room/yotf) — Command injection behind auth.
 - [ ] [TryHackMe | Ra](https://tryhackme.com/room/ra) — Windows AD full attack chain.
@@ -480,6 +611,161 @@ Use checkboxes to track what you've done. Fork this repo and check them off as y
 - [ ] [TryHackMe | Different CTF](https://tryhackme.com/room/adana) — Full Linux attack chain.
 - [ ] [TryHackMe | VulnNet: dotjar](https://tryhackme.com/room/vulnnetdotjar) — Ghostcat + Java + sudo.
 
+
+### 🟢 More Easy CTFs
+
+- [ ] [TryHackMe | Basic Pentesting](https://tryhackme.com/room/basicpentestingjt) — Classic first boot2root.
+- [ ] [TryHackMe | UltraTech](https://tryhackme.com/room/ultratech1) — Web enumeration to root.
+- [ ] [TryHackMe | Library](https://tryhackme.com/room/bsidesgtlibrary) — Easy Linux machine.
+- [ ] [TryHackMe | Thompson](https://tryhackme.com/room/bsidesgtthompson) — Tomcat machine.
+- [ ] [TryHackMe | Anonforce](https://tryhackme.com/room/bsidesgtanonforce) — FTP and crypto.
+- [ ] [TryHackMe | Dav](https://tryhackme.com/room/bsidesgtdav) — WebDAV machine.
+- [ ] [TryHackMe | Develpy](https://tryhackme.com/room/bsidesgtdevelpy) — Python-based box.
+- [ ] [TryHackMe | Jack-of-All-Trades](https://tryhackme.com/room/jackofalltrades) — Stego, web and privesc.
+- [ ] [TryHackMe | Ninja Skills](https://tryhackme.com/room/ninjaskills) — Linux find practice.
+- [ ] [TryHackMe | The Cod Caper](https://tryhackme.com/room/thecodcaper) — Linux forensics-style CTF.
+- [ ] [TryHackMe | Tony the Tiger](https://tryhackme.com/room/tonythetiger) — Java deserialisation.
+- [ ] [TryHackMe | Smag Grotto](https://tryhackme.com/room/smaggrotto) — Web, PCAP and cron.
+- [ ] [TryHackMe | kiba](https://tryhackme.com/room/kiba) — Kibana exploitation.
+- [ ] [TryHackMe | Poster](https://tryhackme.com/room/poster) — PostgreSQL and Metasploit.
+- [ ] [TryHackMe | Lunizz CTF](https://tryhackme.com/room/lunizzctfnd) — Easy Linux CTF.
+- [ ] [TryHackMe | Atlas](https://tryhackme.com/room/atlas) — Easy Linux machine.
+- [ ] [TryHackMe | KoTH Food CTF](https://tryhackme.com/room/kothfoodctf) — King of the Hill practice.
+- [ ] [TryHackMe | Pyrat](https://tryhackme.com/room/pyrat) — Python-based challenge.
+- [ ] [TryHackMe | Cheese CTF](https://tryhackme.com/room/cheesectfv10) — Fun multi-step box.
+- [ ] [TryHackMe | U.A. High School](https://tryhackme.com/room/yueiua) — Anime-themed CTF.
+- [ ] [TryHackMe | Joomify](https://tryhackme.com/room/joomify) — Joomla exploitation.
+- [ ] [TryHackMe | Publisher](https://tryhackme.com/room/publisher) — SPIP exploitation.
+- [ ] [TryHackMe | W1seGuy](https://tryhackme.com/room/w1seguy) — XOR crypto challenge.
+- [ ] [TryHackMe | mKingdom](https://tryhackme.com/room/mkingdom) — Web to root.
+- [ ] [TryHackMe | CyberLens](https://tryhackme.com/room/cyberlensp6) — Web exploit box.
+- [ ] [TryHackMe | TryHack3M: Bricks Heist](https://tryhackme.com/room/tryhack3mbricksheist) — WordPress incident.
+- [ ] [TryHackMe | Creative](https://tryhackme.com/room/creative) — Easy web box.
+- [ ] [TryHackMe | Dreaming](https://tryhackme.com/room/dreaming) — Easy Linux box.
+- [ ] [TryHackMe | Hijack](https://tryhackme.com/room/hijack) — Cookie and NFS abuse.
+- [ ] [TryHackMe | Compiled](https://tryhackme.com/room/compiled) — Reverse engineering starter.
+- [ ] [TryHackMe | Super Secret TIp](https://tryhackme.com/room/supersecrettip) — Web challenge.
+- [ ] [TryHackMe | Lesson Learned?](https://tryhackme.com/room/lessonlearned) — SQLi practice.
+- [ ] [TryHackMe | Red](https://tryhackme.com/room/redisl33t) — LFI and privesc.
+- [ ] [TryHackMe | Cat Pictures 2](https://tryhackme.com/room/catpictures2) — Follow-up to Cat Pictures.
+- [ ] [TryHackMe | Flip](https://tryhackme.com/room/flip) — Crypto bit-flipping.
+- [ ] [TryHackMe | Valley!](https://tryhackme.com/room/valleype) — Easy Linux box.
+- [ ] [TryHackMe | Capture!](https://tryhackme.com/room/capture) — Brute force with captcha.
+- [ ] [TryHackMe | Opacity](https://tryhackme.com/room/opacity) — Easy Linux box.
+- [ ] [TryHackMe | Bugged](https://tryhackme.com/room/bugged) — IoT and MQTT room.
+- [ ] [TryHackMe | Psycho Break](https://tryhackme.com/room/psychobreak) — Stego and web.
+- [ ] [TryHackMe | AttackerKB](https://tryhackme.com/room/attackerkb) — Learn to research exploits.
+
+### 🟡 More Medium CTFs
+
+- [ ] [TryHackMe | Backtrack](https://tryhackme.com/room/backtrack) — Multi-step Linux box.
+- [ ] [TryHackMe | Extracted](https://tryhackme.com/room/extractedroom) — Forensics-style challenge.
+- [ ] [TryHackMe | The London Bridge](https://tryhackme.com/room/thelondonbridge) — SSRF to root.
+- [ ] [TryHackMe | Breakme](https://tryhackme.com/room/breakmenu) — WordPress and privesc.
+- [ ] [TryHackMe | Block](https://tryhackme.com/room/blockroom) — Windows forensics and AD.
+- [ ] [TryHackMe | New York Flankees](https://tryhackme.com/room/thenewyorkflankees) — Web exploitation.
+- [ ] [TryHackMe | Airplane](https://tryhackme.com/room/airplane) — Linux box.
+- [ ] [TryHackMe | Profiles](https://tryhackme.com/room/profilesroom) — Web box.
+- [ ] [TryHackMe | Clocky](https://tryhackme.com/room/clocky) — Web and crypto.
+- [ ] [TryHackMe | Hack Smarter Security](https://tryhackme.com/room/hacksmartersecurity) — Windows box.
+- [ ] [TryHackMe | Kitty](https://tryhackme.com/room/kitty) — SQLi box.
+- [ ] [TryHackMe | Umbrella](https://tryhackme.com/room/umbrella) — Docker-based box.
+- [ ] [TryHackMe | AVenger](https://tryhackme.com/room/avenger) — Bypass Windows Defender.
+- [ ] [TryHackMe | WhyHackMe](https://tryhackme.com/room/whyhackme) — Web to root.
+- [ ] [TryHackMe | Stealth](https://tryhackme.com/room/stealth) — Evade defences.
+- [ ] [TryHackMe | Athena](https://tryhackme.com/room/4th3n4) — Linux box.
+- [ ] [TryHackMe | Crylo](https://tryhackme.com/room/crylo4a) — Crypto challenge.
+- [ ] [TryHackMe | Forgotten Implant](https://tryhackme.com/room/forgottenimplant) — C2 implant analysis.
+- [ ] [TryHackMe | Weasel](https://tryhackme.com/room/weasel) — Windows box.
+- [ ] [TryHackMe | Prioritise](https://tryhackme.com/room/prioritise) — SQLi box.
+- [ ] [TryHackMe | StuxCTF](https://tryhackme.com/room/stuxctf) — Multi-step CTF.
+- [ ] [TryHackMe | Boiler CTF](https://tryhackme.com/room/boilerctf2) — Joomla and privesc.
+- [ ] [TryHackMe | HA Joker CTF](https://tryhackme.com/room/jokerctf) — Linux box.
+- [ ] [TryHackMe | Break it](https://tryhackme.com/room/breakit) — Linux box.
+- [ ] [TryHackMe | Willow](https://tryhackme.com/room/willow) — Crypto and privesc.
+- [ ] [TryHackMe | Nax](https://tryhackme.com/room/nax) — Nagios exploitation.
+- [ ] [TryHackMe | Mindgames](https://tryhackme.com/room/mindgames) — Brainfuck and privesc.
+- [ ] [TryHackMe | 0day](https://tryhackme.com/room/0day) — Shellshock.
+- [ ] [TryHackMe | Deja Vu](https://tryhackme.com/room/dejavu) — Web exploitation.
+- [ ] [TryHackMe | KoTH Hackers](https://tryhackme.com/room/kothhackers) — King of the Hill practice.
+- [ ] [TryHackMe | harder](https://tryhackme.com/room/harder) — Web box.
+- [ ] [TryHackMe | HaskHell](https://tryhackme.com/room/haskhell) — Haskell-based box.
+- [ ] [TryHackMe | Break Out The Cage](https://tryhackme.com/room/breakoutthecage1) — Linux box.
+- [ ] [TryHackMe | The Impossible Challenge](https://tryhackme.com/room/theimpossiblechallenge) — Crypto puzzles.
+- [ ] [TryHackMe | Looking Glass](https://tryhackme.com/room/lookingglass) — SSH and crypto.
+- [ ] [TryHackMe | Recovery](https://tryhackme.com/room/recovery) — Incident investigation.
+- [ ] [TryHackMe | Ghizer](https://tryhackme.com/room/ghizerctf) — Multi-step Linux box.
+- [ ] [TryHackMe | WWBuddy](https://tryhackme.com/room/wwbuddy) — Web box.
+- [ ] [TryHackMe | The Blob Blog](https://tryhackme.com/room/theblobblog) — Web and crypto.
+- [ ] [TryHackMe | Cooctus Stories](https://tryhackme.com/room/cooctusadventures) — Linux box.
+- [ ] [TryHackMe | One Piece](https://tryhackme.com/room/ctfonepiece65) — Anime-themed CTF.
+- [ ] [TryHackMe | toc2](https://tryhackme.com/room/toc2) — Linux box.
+- [ ] [TryHackMe | NerdHerd](https://tryhackme.com/room/nerdherd) — Linux box.
+- [ ] [TryHackMe | The Server From Hell](https://tryhackme.com/room/theserverfromhell) — Ports and privesc.
+- [ ] [TryHackMe | Jacob the Boss](https://tryhackme.com/room/jacobtheboss) — JBoss exploitation.
+- [ ] [TryHackMe | Unbaked Pie](https://tryhackme.com/room/unbakedpie) — Pickle deserialisation.
+- [ ] [TryHackMe | battery](https://tryhackme.com/room/battery) — Linux box.
+- [ ] [TryHackMe | Madeye's Castle](https://tryhackme.com/room/madeyescastle) — Multi-step Linux box.
+- [ ] [TryHackMe | En-pass](https://tryhackme.com/room/enpass) — Web box.
+- [ ] [TryHackMe | Sustah](https://tryhackme.com/room/sustah) — Rate-limit bypass.
+- [ ] [TryHackMe | Tokyo Ghoul](https://tryhackme.com/room/tokyoghoul666) — Anime-themed CTF.
+- [ ] [TryHackMe | VulnNet: dotpy](https://tryhackme.com/room/vulnnetdotpy) — Python-based VulnNet.
+- [ ] [TryHackMe | pyLon](https://tryhackme.com/room/pylonzf) — Python box.
+- [ ] [TryHackMe | The Great Escape](https://tryhackme.com/room/thegreatescape) — Docker escape.
+- [ ] [TryHackMe | SafeZone](https://tryhackme.com/room/safezone) — Web box.
+- [ ] [TryHackMe | Sweettooth Inc.](https://tryhackme.com/room/sweettoothinc) — Multi-step box.
+- [ ] [TryHackMe | Red Team OPSEC](https://tryhackme.com/room/opsec) — Operational security for red teams.
+- [ ] [TryHackMe | Super-Spam](https://tryhackme.com/room/superspamr) — Web box.
+- [ ] [TryHackMe | That's The Ticket](https://tryhackme.com/room/thatstheticket) — XSS to privesc.
+- [ ] [TryHackMe | Red Stone One Carat](https://tryhackme.com/room/redstoneonecarat) — Linux box.
+- [ ] [TryHackMe | Cold VVars](https://tryhackme.com/room/coldvvars) — Linux box.
+- [ ] [TryHackMe | Metamorphosis](https://tryhackme.com/room/metamorphosis) — Linux box.
+- [ ] [TryHackMe | Fortress](https://tryhackme.com/room/fortress) — Multi-stage challenge.
+- [ ] [TryHackMe | CyberCrafted](https://tryhackme.com/room/cybercrafted) — Minecraft-themed box.
+
+### 🔴 More Hard CTFs
+
+- [ ] [TryHackMe | CERTain Doom](https://tryhackme.com/room/certaindoom) — Hard challenge.
+- [ ] [TryHackMe | Capture Returns](https://tryhackme.com/room/capturereturns) — Hard brute force.
+- [ ] [TryHackMe | Chrome](https://tryhackme.com/room/chrome) — Hard Windows box.
+- [ ] [TryHackMe | Reset](https://tryhackme.com/room/resetui) — Windows AD box.
+- [ ] [TryHackMe | Motunui](https://tryhackme.com/room/motunui) — Hard challenge.
+- [ ] [TryHackMe | Spring](https://tryhackme.com/room/spring) — Spring framework exploitation.
+- [ ] [TryHackMe | Borderlands](https://tryhackme.com/room/borderlands) — Hard web box.
+- [ ] [TryHackMe | hc0n Christmas CTF](https://tryhackme.com/room/hc0nchristmasctf) — Event CTF.
+- [ ] [TryHackMe | Jeff](https://tryhackme.com/room/jeff) — Hard Linux box.
+- [ ] [TryHackMe | Racetrack Bank](https://tryhackme.com/room/racetrackbank) — Race conditions.
+- [ ] [TryHackMe | Dave's Blog](https://tryhackme.com/room/davesblog) — Hard web box.
+- [ ] [TryHackMe | Carpe Diem 1](https://tryhackme.com/room/carpediem1) — Hard Linux box.
+- [ ] [TryHackMe | For Business Reasons](https://tryhackme.com/room/forbusinessreasons) — Hard box.
+- [ ] [TryHackMe | Anonymous Playground](https://tryhackme.com/room/anonymousplayground) — Binary and crypto.
+- [ ] [TryHackMe | Misguided Ghosts](https://tryhackme.com/room/misguidedghosts) — Hard box.
+- [ ] [TryHackMe | Theseus](https://tryhackme.com/room/theseus) — Hard box.
+- [ ] [TryHackMe | Year of the Dog](https://tryhackme.com/room/yearofthedog) — Hard Linux box.
+- [ ] [TryHackMe | You're in a cave](https://tryhackme.com/room/inacave) — Hard challenge.
+- [ ] [TryHackMe | envizon](https://tryhackme.com/room/envizon) — Hard box.
+- [ ] [TryHackMe | GameBuzz](https://tryhackme.com/room/gamebuzz) — Hard box.
+- [ ] [TryHackMe | Rocket](https://tryhackme.com/room/rocket) — Hard web box.
+- [ ] [TryHackMe | Squid Game](https://tryhackme.com/room/squidgameroom) — Hard box.
+- [ ] [TryHackMe | EnterPrize](https://tryhackme.com/room/enterprize) — Hard box.
+- [ ] [TryHackMe | Frosteau Busy with Vim](https://tryhackme.com/room/busyvimfrosteau) — Insane-rated challenge.
+
+---
+
+## ☁️ Phase 10 — Cloud, Containers & DevSecOps
+
+> **Who is this for?** Anyone heading into DevSecOps, cloud security or platform security.
+> **Time estimate:** ~1 week
+> **Goal:** Understand containers, Kubernetes and IaC security before attackers do.
+
+- [ ] [TryHackMe | Intro to Docker](https://tryhackme.com/room/introtodockerk8pdqk) — Containers from zero.
+- [ ] [TryHackMe | Intro to IaC](https://tryhackme.com/room/introtoiac) — Infrastructure as Code basics.
+- [ ] [TryHackMe | SDLC](https://tryhackme.com/room/sdlc) — Secure development lifecycle.
+- [ ] [TryHackMe | K8s Runtime Security](https://tryhackme.com/room/k8sruntimesecurity) — Detect threats inside clusters.
+- [ ] [TryHackMe | K8s Best Security Practices](https://tryhackme.com/room/k8sbestsecuritypractices) — Lock down Kubernetes.
+- [ ] [TryHackMe | Cluster Hardening](https://tryhackme.com/room/clusterhardening) — Harden a cluster.
+- [ ] [TryHackMe | Kubernetes Chall TDI 2020](https://tryhackme.com/room/kuberneteschalltdi2020) — Kubernetes CTF.
+
 ---
 
 ## 🎄 Bonus — Special Events
@@ -492,6 +778,14 @@ Use checkboxes to track what you've done. Fork this repo and check them off as y
 - [ ] [TryHackMe | Advent of Cyber 2022](https://tryhackme.com/room/adventofcyber4) — Smart contracts, log analysis, ML.
 - [ ] [TryHackMe | 25 Days of Cyber Security](https://tryhackme.com/room/learncyberin25days) — Alternative beginner advent.
 - [ ] [TryHackMe | Cyber Scotland 2021](https://tryhackme.com/room/cyberweek2021) — Mini event rooms.
+
+
+- [ ] [TryHackMe | Advent of Cyber 2023](https://tryhackme.com/room/adventofcyber2023) — Blue and red tracks.
+- [ ] [TryHackMe | Advent of Cyber 2024](https://tryhackme.com/room/adventofcyber2024) — Latest advent rooms covered here.
+- [ ] [TryHackMe | Advent of Cyber '23 Side Quest](https://tryhackme.com/room/adventofcyber23sidequest) — Hard hidden challenges.
+- [ ] [TryHackMe | Hacker of the Hill #1](https://tryhackme.com/room/hackerofthehill) — King of the Hill event.
+- [ ] [TryHackMe | Learn and win prizes](https://tryhackme.com/room/tickets1) — Event rooms.
+- [ ] [TryHackMe | Learn and win prizes #2](https://tryhackme.com/room/tickets2) — Event rooms.
 
 ---
 
@@ -535,6 +829,26 @@ After completing this roadmap, here's where to aim based on what lit you up:
 
 ---
 
+
+## 🚫 No Longer Free
+
+Reported by the community as moved behind the paywall. Skipped on purpose.
+
+- ~~Linux Fundamentals Part 2~~ — [`linuxfundamentalspart2`](https://tryhackme.com/room/linuxfundamentalspart2)
+- ~~Linux Fundamentals Part 3~~ — [`linuxfundamentalspart3`](https://tryhackme.com/room/linuxfundamentalspart3)
+- ~~Intro to LAN~~ — [`introtolan`](https://tryhackme.com/room/introtolan)
+- ~~Probe~~ — [`probe`](https://tryhackme.com/room/probe)
+- ~~The Witch's Cauldron~~ — [`cauldron`](https://tryhackme.com/room/cauldron)
+- ~~Bulletproof Penguin~~ — [`bppenguin`](https://tryhackme.com/room/bppenguin)
+- ~~Grep~~ — [`greprtp`](https://tryhackme.com/room/greprtp)
+- ~~Snapped Phish-ing Line~~ — [`snappedphishingline`](https://tryhackme.com/room/snappedphishingline)
+- ~~LookBack~~ — [`lookback`](https://tryhackme.com/room/lookback)
+- ~~Confidential~~ — [`confidential`](https://tryhackme.com/room/confidential)
+
+Found another? [Open an issue](https://github.com/NISTALTALSON/free-tryhackme-rooms/issues).
+
+---
+
 ## 🤝 Contributing
 
 Found a room that should be here? Submit a PR:
@@ -550,7 +864,17 @@ All contributions are credited.
 
 ## ⭐ Star This Repo
 
-If this roadmap helped you, **star it**. It helps other learners find it.
+If this roadmap helped you, **star it**. It's the only way other learners find it.
+
+[![Star History Chart](https://api.star-history.com/svg?repos=NISTALTALSON/free-tryhackme-rooms&type=Date)](https://star-history.com/#NISTALTALSON/free-tryhackme-rooms&Date)
+
+### 📣 Share it
+
+[Share on X](https://twitter.com/intent/tweet?text=Free%20TryHackMe%20roadmap%3A%20470%2B%20rooms%2C%20phased%20from%20zero%20to%20hacker%2C%20no%20paywall&url=https%3A%2F%2Fgithub.com%2FNISTALTALSON%2Ffree-tryhackme-rooms) • [Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fgithub.com%2FNISTALTALSON%2Ffree-tryhackme-rooms) • [Share on Reddit](https://www.reddit.com/submit?url=https%3A%2F%2Fgithub.com%2FNISTALTALSON%2Ffree-tryhackme-rooms&title=Free%20TryHackMe%20roadmap)
+
+### 👥 Contributors
+
+[![Contributors](https://contrib.rocks/image?repo=NISTALTALSON/free-tryhackme-rooms)](https://github.com/NISTALTALSON/free-tryhackme-rooms/graphs/contributors)
 
 > *"You don't need expensive courses. You need discipline and the right path. This is the path."*
 
