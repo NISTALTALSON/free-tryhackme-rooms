@@ -12,9 +12,9 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-ff69b4?style=for-the-badge)](#-contributing)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
-> **"Everyone deserves to learn hacking. This roadmap is your cheat code."**
+> **"Everyone deserves to learn hacking. This roadmap is your cheat code."**.
 
-**⭐ Star this repo so you can find it later — then start at [Phase 0](#-phase-0--start-here).**
+**⭐ Star this repo so you can find it later — then start at [Phase 0](#-phase-0--start-here).**.
 
 </div>
 
